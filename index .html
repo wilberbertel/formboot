@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <title>Formularioelectiva</title>
+    <style>
+     .display-4 {background-color: powderblue;}
+
+     body{
+        width: auto;
+        height: auto;
+        padding: 15 px;
+        border: 20px;
+
+
+     }
+
+
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <header class="container">
+            <center>
+            <h1 class="display-4">Formularioelectiva</h1>
+        </center>
+        </header>
+    </div>
+
+    <form action="">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="">Nombres</label>
+                <input type="text" class="form-control" name="" id="" placeholder="Nombres">
+            </div>
+
+            <div class="form-group col-md-6">
+                    <label for="">Apellidos</label>
+                    <input type="text" class="form-control" name="" id="" placeholder="Apellidos">
+                </div>
+        </div>
+
+        <label for="">Sexo</label>
+        <div class="form-row">
+            <div class="form-group col-md-1">
+                <div class="custom-control custom-radio custom-control-inline">              
+                    <input type="radio" class="custom-control-input" id="Femenino" name="defaultExampleRadios">
+                    <label class="custom-control-label" for="Femenino">Femenino</label>
+                </div>
+            </div>
+
+            <div class="form-group col-md-1">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" class="custom-control-input" id="Masculino" name="defaultExampleRadios" checked>
+                    <label class="custom-control-label" for="Masculino">Masculino</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="">Seleccione un pais</label>
+                <select name="" class="form-control" id="">
+                    <option value="1">Seleccione un pais</option>
+                    <option value="2">colombia</option>
+                    <option value="3">venezuela</option>
+                    <option value="4">argentina</option>
+                    <option value="5">ecuador</option>
+                    <option value="5">peru</option>
+                </select>
+            </div>   
+        
+
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="">Direccion</label>
+
+                <input type="text"  class="form-control" name="" id="" placeholder="Direccion" >
+                <label for="">Comentarios</label>
+            </div>
+            
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-12">
+               
+                <textarea name="" id="" style="width:300px " style="height:auto " rows="10" placeholder="Comentario"></textarea>
+            </div>
+        </div>
+
+        <input type="submit"  style="width:100px;"  class="btn btn-primary" data-dismiss="alert" value="REGISTRAR" >
+        <input type="reset"  style="width:100px;" class="btn btn-danger" value="LIMPIAR">
+      
+    </form>
+
+
+</body>
+</html>
